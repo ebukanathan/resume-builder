@@ -69,7 +69,7 @@ function Formatone({ resume, summary, edu, eduentries, history, work }) {
           </div>
         </div>
       ))}
-      <div className="skills">
+      {/* <div className="skills">
         <div className="subhead">Skills</div>
 
         <hr />
@@ -77,7 +77,7 @@ function Formatone({ resume, summary, edu, eduentries, history, work }) {
           <li>html</li>
           <li>css</li>
         </ul>
-      </div>
+      </div> */}
     </div>
   );
 }
