@@ -1,0 +1,66 @@
+.formatone {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+}
+
+.name,
+.address {
+  display: flex;
+  height: 5vh;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  margin-bottom: 5px;
+  gap: 10px;
+}
+.address {
+  font-size: 12.5px;
+  gap: 1px;
+}
+
+.address > p::after {
+  content: "|";
+}
+
+.summary {
+  margin: 5px auto;
+}
+.subhead {
+  font-weight: 700;
+  font-size: 16px;
+}
+.summaryText {
+  font-size: 14px;
+}
+
+.education {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.eduright,
+.eduleft {
+  display: flex;
+  flex-direction: column;
+}
+
+.uni,
+.unitown {
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.degree,
+.unidate {
+  font-size: 12.5px;
+}

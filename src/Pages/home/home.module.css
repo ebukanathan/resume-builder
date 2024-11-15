@@ -1,0 +1,58 @@
+.home {
+  width: 50%;
+  margin: 5px auto;
+}
+.home > h1 {
+  text-align: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+label {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  border-radius: 5px;
+  outline: none;
+
+  padding: 5px 10px;
+}
+
+.names {
+  display: flex;
+  width: 60%;
+  gap: 10px;
+
+  justify-content: space-around;
+}
+
+.address {
+  display: flex;
+  gap: 10px;
+}
+
+.addExp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dateofwork {
+  width: 200px;
+  display: flex;
+  gap: 5px;
+}
+.date {
+  width: 150px;
+}
+
+.responsibilities {
+  width: 100%;
+  background-color: red;
+}

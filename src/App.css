@@ -1,0 +1,28 @@
+.form {
+  width: 70%;
+  margin: 0 auto;
+  background-color: aquamarine;
+}
+
+.form-input {
+  align-items: center;
+}
+
+.welcome {
+  text-align: center;
+  margin: 40px 5px;
+}
+.landing {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
+}
+.right,
+.left {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.left {
+  padding: 15px 5px;
+}
