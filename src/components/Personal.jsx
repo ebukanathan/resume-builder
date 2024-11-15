@@ -6,15 +6,11 @@ function Personal({ resume, setResume }) {
 
   const handleInput = (e) => {
     const { name, value } = e.target;
-
-    console.log(e.target);
     setResume({ ...resume, [name]: value });
-    console.log(resume);
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(resume);
   };
   return (
     <div className={style.home}>

@@ -9,6 +9,7 @@ import Work from "../../components/Work";
 
 function Home({
   resume,
+  setResume,
   summary,
   setSummary,
   setEdu,
@@ -25,7 +26,7 @@ function Home({
   // };
   return (
     <div className={style.home}>
-      {<Personal resume={resume} />}
+      {<Personal resume={resume} setResume={setResume} />}
       {<Summary summary={summary} setSummary={setSummary} />}
       {
         <Education

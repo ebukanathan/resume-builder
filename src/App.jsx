@@ -36,6 +36,7 @@ function App() {
         <div className="left">
           <Home
             resume={resume}
+            setResume={setResume}
             summary={summary}
             setSummary={setSummary}
             edu={edu}

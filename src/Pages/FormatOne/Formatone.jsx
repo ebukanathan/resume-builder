@@ -53,10 +53,14 @@ function Formatone({ resume, summary, edu, eduentries, history, work }) {
         </div>
       ))}
 
-      <div className={style.summary}>
-        <div className={style.subhead}>work History</div>
-        <hr />
-      </div>
+      {history.length > 1 ? (
+        <div className={style.summary}>
+          <div className={style.subhead}>work History</div>
+          <hr />
+        </div>
+      ) : (
+        ""
+      )}
       {history.map((item, index) => (
         <div key={index} className={style.education}>
           <div className={style.eduleft}>
