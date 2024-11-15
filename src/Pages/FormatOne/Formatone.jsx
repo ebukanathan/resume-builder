@@ -15,7 +15,7 @@ function Formatone({ resume, summary, edu, eduentries, history, work }) {
         </div>
         <div className={style.address}>
           <p className={style.socialmedia}>{email}</p>
-          <p className={style.linkedin}>linkedin.com/ebuka@limdidiek</p>
+
           <p className={style.homeadress}>{homeAdd}</p>
           <p className={style.phone}>{phone}</p>
         </div>
